@@ -1,0 +1,15 @@
+.page-enter-active, .page-leave-active {
+  transition: opacity 2s;
+  opacity: 1;
+}
+.page-enter, .page-leave-active {
+  opacity: 0;
+}
+
+.test-enter-active, .test-leave-active {
+  transition: background 2s;
+  background: yellow;
+}
+.test-enter, .test-leave-active {
+  background: blue;
+}
